@@ -1,0 +1,48 @@
+{
+    "name": "WikiScoop",
+    "description": "WikiScoop Description",
+    "version": "1.0.0",
+    "license-name": "MIT",
+    "author": "Alexander Yukal <yukal@email.ua>",
+    "url": "https://github.com/yukal/wiki-scoop",
+    "namemsg": "wikiscoop-name",
+    "descriptionmsg": "wikiscoop-desc",
+    "type": "other",
+    "requires": {
+        "MediaWiki": ">= 1.31.0",
+        "platform": {
+            "php": ">= 7.0"
+        }
+    },
+    "AutoloadNamespaces": {
+        "MediaWiki\\Extension\\WikiScoop\\": "src/"
+    },
+    "SpecialPages": {
+        "WikiScoop": "MediaWiki\\Extension\\WikiScoop\\Special"
+    },
+    "ExtensionMessagesFiles": {
+        "WikiScoopAlias": "WikiScoop.alias.i18n.php"
+    },
+    "AvailableRights": [
+        "wikiscoop-right"
+    ],
+    "ResourceFileModulePaths": {
+        "localBasePath": "static",
+        "remoteExtPath": "WikiScoop/static"
+    },
+    "ResourceModules": {
+        "ext.WikiScoop": {
+            "scripts": "ext.wikiScoop.js",
+            "targets": [
+                "mobile",
+                "desktop"
+            ]
+        }
+    },
+    "MessagesDirs": {
+        "WikiScoop": [
+            "i18n"
+        ]
+    },
+    "manifest_version": 2
+}

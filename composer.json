@@ -1,0 +1,19 @@
+{
+    "name": "ay/wikiscoop",
+    "description": "wikiscoop",
+    "type": "library",
+    "require": {},
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Yukal",
+            "email": "yukal.alexander@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "WikiScoop\\": "src/"
+        }
+    }
+}
