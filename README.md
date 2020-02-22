@@ -1,5 +1,5 @@
 # WikiScoop
-Description
+A MediaWiki extension that should be doing something but still in plans
 
 ### Requires
 - MediaWiki >= 1.31.0
